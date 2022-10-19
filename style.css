@@ -6,7 +6,7 @@
     font-size: 20px;
 }
 
-.greeting {
+header { /* селектор по тегу, так как header один на странице  */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,17 +23,19 @@ h1 {
     font-size: 3rem;
 }
 
-.button {
+.header-button {
     display: inline-block;
     border: 2px solid #926239;
     border-radius: 10px;
     width: 130px;
     padding: 10px;
+    background-color: transparent;
+    font-weight: bolder;
 }
 
-.button:hover {
+.header-button:hover {
     background-color: #926239;
-    color: antiquewhite;
+    color: white;
 }
 
 .font-brown {
@@ -41,7 +43,7 @@ h1 {
 }
 
 .font-white {
-    color: antiquewhite;
+    color: white;
 }
 
 .align {
@@ -54,19 +56,19 @@ h1 {
 
 .color-scheme-b {
     background-color: #926239;
-    color: antiquewhite;
+    color: white;
     text-align: justify;
     padding: 20px;
 }
 
 .color-scheme-w {
-    background-color: antiquewhite;
+    background-color: white;
     color: #926239;
     text-align: justify;
     padding: 20px;
 }
 
-.bottom {
+footer {
     display: flex;
     flex-direction: row;
 }
